@@ -1,0 +1,111 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+
+.nav-item a{
+    color: white !important;
+}
+
+.theme-btn{
+    color: white !important;
+}
+
+.nav-item .menu-btns:hover{
+    background: #0091CD !important;
+}
+
+.nav-item > ul{
+    background: black;
+}
+
+.navbar-brand{
+    color: darkgrey;
+}
+
+.navbar-brand:hover{
+    color: white;
+}
+
+.navbg{
+    background-color: black;
+    color: white;
+}
+
+.nav-item{
+    margin: 10px;
+}
+
+.nav-item a:hover{
+    color: #0091CD !important;
+}
+
+
+
+.navbar-nav .nav-link.show{
+    color: white !important;
+} 
+
+
+#uptake_infotech {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    line-height: 25px;
+    letter-spacing: 5px;
+    margin-left: 15px;
+    overflow: overlay;
+  }
+
+  .nav-item a{
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+  }
+
+.allservice a{
+    color: #0091CD;
+}
+.services2{
+    display: none;
+  }
+  @media screen and (min-width: 991px){
+    .nav-item:hover > ul{
+        display: block;
+    }
+
+    .dropend:hover > ul{
+        display: block;
+        position: relative;
+        left: 105%;
+        top: 0;
+    }
+
+  
+  }
+ 
+
+  @media screen and (max-width: 991px) {
+    .navbar-nav{
+        background: black;
+    }
+    .services2{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        color: white !important;
+    }
+
+    .services1{
+        display: none;
+    }
+  }
+ 
+  .allmyserve{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.nav-item:hover a{
+    background-color: black !important;
+}
+
